@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Image</title>
+<style>
+  .responsive-image {
+    width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+
+<img src="img/portofolio/1.png" alt="Responsive" class="responsive-image"
+     srcset="img/portofolio/2.png 600w, 
+             img/portofolio/1.png 1200w"
+     sizes="(max-width: 600px) 100vw, 1200px">
+
+</body>
+</html>
