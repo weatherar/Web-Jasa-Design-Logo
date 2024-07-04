@@ -530,12 +530,11 @@ footer .container-footer {
 	padding: 20px 40px 20px 40px;
 }
 
-.logo-footer img {
+/* .logo-footer img {
 	width: 200px;
-}
+} */
 .responsive-img {
-	width: auto;
-	height: auto;
+    width: 200px; /* Default width is 100% of its container */
 }
 
 .layanan-lain {
@@ -701,7 +700,7 @@ footer .container-footer {
 		width: 100%;
 	}
 	.order .pesan #second {
-		background-color: #e4e4e423;
+		background-color: #e4e4e44f;
 	}
 
 	.order .pesan .kotak p.icon {
@@ -751,9 +750,13 @@ footer .container-footer {
 		flex-wrap: wrap;
 	}
 
-	.logo-footer img {
+	/* .logo-footer img {
 		width: 170px;
-	}
+	} */
+
+	  .responsive-img {
+        width: 170px; /* Width of 100px for viewports between 401px and 800px */
+    }
 	.logo-footer {
 		border-bottom: solid 1px #666565;
 		margin-block-end: 1em;
@@ -944,11 +947,7 @@ footer .container-footer {
 		text-align: center;
 	}
 
-	/* .logo-footer img .responsive-img {
-		width: 10px;
-		
-		
-	} */
+	
 	.container-footer .layanan-lain {
 		justify-content: center;
 		align-items: center;
@@ -964,11 +963,14 @@ footer .container-footer {
 		align-items: center;
 		text-align: center;
 	}
-	.logo-footer img {
+	/* .logo-footer img {
 		width: 100px;
 		margin-block-end: 0.5em;
 	}
-	
+	 */
+	 .responsive-img {
+        width: 100px; /* Width of 50px for viewports <= 400px */
+    }
 	.logo-footer p {
 		font-size: 1.4em;
 	}
